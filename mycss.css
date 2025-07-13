@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+/* Section and Content */
+section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    min-height: 80vh;
+}
+
+.section-header {
+    color: #005f73;
+    border-bottom: 2px solid #005f73;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-header img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #005f73;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hobby Description */
+.hobby-description {
+    background-color: #e0fbfc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #333;
+    font-size: 0.9em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Hobby Image Gallery */
+.hobby-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.hobby-image {
+    text-align: center;
+    max-width: 250px;
+    flex: 1 1 auto;
+}
+
+.hobby-image img {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.hobby-image p {
+    font-weight: bold;
+    color: #005f73;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
